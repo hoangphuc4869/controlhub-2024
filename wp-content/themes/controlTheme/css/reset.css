@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafb;
+}
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #f15922;
+}
+
+.mr-top {
+  margin-top: 50px;
+}

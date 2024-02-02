@@ -1,0 +1,378 @@
+/*how to use*/
+
+.bg-use {
+  background-color: #eaeaea;
+  padding: 80px 0;
+}
+
+.how-to-use {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.how-to-use img {
+  width: 100%;
+  height: auto;
+}
+
+.title-use {
+  font-family: "Space Grotesk";
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.text-use {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.how-to-use-2,
+.how-to-use-3 {
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.how-to-use-2 {
+  top: 0;
+  padding: 30px 40px;
+}
+
+.how-to-use-3 {
+  bottom: 0;
+  padding: 30px;
+  padding-right: 45%;
+}
+
+.how-to-use-3 h2 {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .how-to-use-2 {
+    padding: 20px 30px;
+  }
+
+  .how-to-use-3 {
+    padding: 20px;
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 450px) {
+  .how-to-use-2,
+  .how-to-use-3 {
+    position: unset;
+    color: black;
+    padding: 15px 0;
+  }
+
+  .title-use {
+    font-size: 20px;
+  }
+}
+
+/*feature products*/
+
+.group {
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group .quick-add {
+  margin-top: auto;
+}
+
+.carousel_1 {
+  margin-top: 50px;
+  position: relative;
+}
+
+.bg-feature {
+  background-color: white;
+  font-family: "Inter";
+  padding: 40px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.bg-feature:hover {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#img-feature {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.category-feature a {
+  color: #281200;
+  font-size: 11px;
+  background-color: #a8cbfe;
+  font-weight: 400;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.title-feature {
+  line-height: 22px;
+  margin: 7px 0;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.title-feature a {
+  color: #5b2d07;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text-feature {
+  color: #5b2d07;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.price-feature {
+  color: #d56a11;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.quick-add a {
+  color: #454545;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #454545;
+  padding: 5px 50px;
+  border-radius: 8px;
+}
+
+.carousel_1 > .owl-nav {
+  display: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 7px;
+  height: 7px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #fd7e14;
+}
+
+.carousel_1 > .owl-dots {
+  position: absolute;
+  top: -45px;
+  right: 0;
+}
+
+@media (max-width: 450px) {
+  .carousel_1 {
+    margin-top: 30px;
+  }
+
+  .bg-feature {
+    margin: 0 20px;
+  }
+
+  .carousel_1 > .owl-dots {
+    position: unset;
+    margin-top: 20px;
+  }
+}
+
+/*Our product categories*/
+
+#as {
+}
+
+.our-categories {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-our-category {
+  border: 1px solid #cbcbcb;
+  border-radius: 12px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+.our-categories:hover .img-our-category {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+}
+
+.title-our-category {
+  font-family: "Space Grotesk";
+  color: #5b2d07;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.our-categories:hover .title-our-category {
+  color: #fd7e14;
+}
+
+.carousel_2 > .owl-nav {
+  display: none;
+}
+
+.carousel_2 > .owl-dots {
+  margin: 30px 0;
+}
+
+/*Smart Buy*/
+
+.bg-smart {
+  background-image: url(../images/bg-smart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  border-radius: 24px;
+  margin-top: 60px;
+  padding-left: 85px;
+}
+
+.bg-smart > .row {
+  align-items: center;
+}
+
+.title-smart-buy {
+  font-family: "Space Grotesk";
+  font-size: 80px;
+  font-weight: 500;
+  letter-spacing: -3px;
+}
+
+.text-smart-buy {
+  font-family: "Inter";
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.shop-now-buy {
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  margin-top: 30px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.shop-now-buy a {
+  color: white;
+}
+
+.shop-now-buy i {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.img-smart {
+  width: 100%;
+  height: 450px;
+  object-fit: scale-down;
+}
+
+@media (max-width: 991px) {
+  .title-smart-buy {
+    font-size: 55px;
+  }
+
+  .shop-now-buy,
+  .text-smart-buy {
+    font-size: 15px;
+  }
+
+  .shop-now-buy {
+    margin-top: 15px;
+  }
+  .img-our-category {
+    height: 150px;
+  }
+}
+
+@media (max-width: 740px) {
+  .bg-smart {
+    padding-left: 0;
+  }
+
+  .bg-smart-2 {
+    padding: 30px;
+  }
+
+  .title-smart-buy {
+    font-size: 40px;
+  }
+
+  .img-smart {
+    height: auto;
+  }
+  .title-our-category {
+    font-size: 10px;
+  }
+  .img-our-category {
+    height: 110px;
+  }
+}
+
+/*phân trang*/
+
+.page-numbers {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-numbers span,
+.page-numbers a {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin: 15px 8px;
+}
+
+.page-numbers span {
+  color: #f15922;
+}
+
+/*New Products*/
