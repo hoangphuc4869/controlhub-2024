@@ -19,7 +19,6 @@
 
                     <li>
                         <?php echo get_sub_field('icon'); ?>
-
                         <?php echo get_sub_field('text'); ?>
                     </li>
 
